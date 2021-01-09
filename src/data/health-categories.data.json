@@ -1,0 +1,15 @@
+[
+  { "slug": "activity", "title": "Activity" },
+  { "slug": "body-measurements", "title": "Body Measurements" },
+  { "slug": "cycle-tracking", "title": "Cycle Tracking" },
+  { "slug": "hearing", "title": "Hearing" },
+  { "slug": "heart", "title": "Heart" },
+  { "slug": "mindfulness", "title": "Mindfulness" },
+  { "slug": "mobility", "title": "Mobility" },
+  { "slug": "nutrition", "title": "Nutrition" },
+  { "slug": "respiratory", "title": "Respiratory" },
+  { "slug": "sleep", "title": "Sleep" },
+  { "slug": "symptoms", "title": "Symptoms" },
+  { "slug": "vitals", "title": "Vitals" },
+  { "slug": "other-data", "title": "Other Data" }
+]

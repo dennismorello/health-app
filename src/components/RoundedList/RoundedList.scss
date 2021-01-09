@@ -1,0 +1,20 @@
+.rounded-list {
+  &.ios {
+    --list-item-border-radius: 8px;
+
+    ion-item {
+      padding-inline-start: calc(var(--ion-safe-area-left, 0px) + 20px);
+      padding-inline-end: calc(var(--ion-safe-area-right, 0px) + 20px);
+
+      &:first-of-type::part(native) {
+        border-top-left-radius: var(--list-item-border-radius) !important;
+        border-top-right-radius: var(--list-item-border-radius) !important;
+      }
+
+      &:last-of-type::part(native) {
+        border-bottom-left-radius: var(--list-item-border-radius) !important;
+        border-bottom-right-radius: var(--list-item-border-radius) !important;
+      }
+    }
+  }
+}

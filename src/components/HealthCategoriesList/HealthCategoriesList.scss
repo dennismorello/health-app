@@ -1,0 +1,54 @@
+ion-icon {
+  &.activity {
+    fill: rgb(237, 104, 57);
+  }
+
+  &.body-measurements {
+    fill: rgb(163, 93, 215);
+  }
+
+  &.cycle-tracking {
+    fill: rgb(211, 121, 142);
+  }
+
+  &.hearing {
+    fill: rgb(45, 124, 244);
+  }
+
+  &.heart {
+    fill: rgb(220, 65, 85);
+  }
+
+  &.mindfulness {
+    color: rgb(113, 187, 228);
+  }
+
+  &.mobility {
+    color: rgb(242, 152, 55);
+  }
+
+  &.nutrition {
+    color: rgb(93, 179, 94);
+    fill: rgb(142, 142, 147);
+  }
+
+  &.other-data {
+    fill: rgb(136, 186, 215);
+  }
+
+  &.respiratory {
+    fill: rgb(117, 198, 242);
+  }
+
+  &.sleep {
+    fill: rgb(242, 153, 56);
+  }
+
+  &.symptoms {
+    color: rgb(85, 92, 206);
+  }
+
+  &.vitals {
+    fill: rgb(235, 69, 90);
+  }
+}
