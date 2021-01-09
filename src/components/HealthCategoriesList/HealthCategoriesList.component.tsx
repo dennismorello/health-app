@@ -17,7 +17,11 @@ const HealthCategoriesList: React.FC = () => {
       </IonListHeader>
 
       {healthCategories.map((category) => (
-        <IonItem key={category.slug} routerLink={`/browse/${category.slug}`}>
+        <IonItem
+          key={category.slug}
+          routerLink={`/browse/${category.slug}`}
+          className="health-category-list-item"
+        >
           <IonIcon
             icon={getHealthCategoryIcon(category)}
             slot="start"

@@ -1,54 +1,58 @@
-ion-icon {
-  &.activity {
-    fill: rgb(237, 104, 57);
-  }
+.health-category-list-item {
+  ion-icon {
+    font-size: 32px;
 
-  &.body-measurements {
-    fill: rgb(163, 93, 215);
-  }
+    &.activity {
+      fill: rgb(237, 98, 48);
+    }
 
-  &.cycle-tracking {
-    fill: rgb(211, 121, 142);
-  }
+    &.body-measurements {
+      fill: rgb(178, 102, 234);
+    }
 
-  &.hearing {
-    fill: rgb(45, 124, 244);
-  }
+    &.cycle-tracking {
+      fill: rgb(212, 103, 112);
+    }
 
-  &.heart {
-    fill: rgb(220, 65, 85);
-  }
+    &.hearing {
+      fill: rgb(53, 134, 246);
+    }
 
-  &.mindfulness {
-    color: rgb(113, 187, 228);
-  }
+    &.heart {
+      fill: rgb(236, 75, 99);
+    }
 
-  &.mobility {
-    color: rgb(242, 152, 55);
-  }
+    &.mindfulness {
+      color: rgb(102, 225, 224);
+    }
 
-  &.nutrition {
-    color: rgb(93, 179, 94);
-    fill: rgb(142, 142, 147);
-  }
+    &.mobility {
+      color: rgb(242, 162, 60);
+    }
 
-  &.other-data {
-    fill: rgb(136, 186, 215);
-  }
+    &.nutrition {
+      color: rgb(104, 204, 103);
+      fill: rgb(142, 142, 147);
+    }
 
-  &.respiratory {
-    fill: rgb(117, 198, 242);
-  }
+    &.other-data {
+      fill: rgb(53, 135, 247);
+    }
 
-  &.sleep {
-    fill: rgb(242, 153, 56);
-  }
+    &.respiratory {
+      fill: rgb(117, 198, 242);
+    }
 
-  &.symptoms {
-    color: rgb(85, 92, 206);
-  }
+    &.sleep {
+      fill: rgb(242, 153, 56);
+    }
 
-  &.vitals {
-    fill: rgb(235, 69, 90);
+    &.symptoms {
+      color: rgb(91, 98, 222);
+    }
+
+    &.vitals {
+      fill: rgb(236, 75, 99);
+    }
   }
 }

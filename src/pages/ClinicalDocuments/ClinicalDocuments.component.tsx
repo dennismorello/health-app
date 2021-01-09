@@ -32,10 +32,10 @@ const ClinicalDocuments: React.FC = () => {
         </IonHeader>
 
         <IonList>
-          <IonItem>
+          <IonItem detail>
             <IonLabel>Show All Records</IonLabel>
           </IonItem>
-          <IonItem>
+          <IonItem detail>
             <IonLabel>Data Sources &amp; Access</IonLabel>
           </IonItem>
         </IonList>
