@@ -4,5 +4,8 @@
     "capacitor": {}
   },
   "type": "react",
-  "id": "0b6b52f7"
+  "id": "0b6b52f7",
+  "hooks": {
+    "build:after": "./scripts/build-after.js"
+  }
 }
